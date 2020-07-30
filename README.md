@@ -57,7 +57,9 @@ July 17 - July 20 - Literature survey
 
 July 21 - Aug 2 - Model preparation
 
-Aug 2 - Aug 17 - paper writing
+Aug 2 - Aug 10 - Training part
+
+Aug 10 - Aug 20 - paper writing
 
 **Accuracy to be achieved :**
 
@@ -77,6 +79,8 @@ TSAI - (Any thing is okay as along as above is satisfied)
 
 **Works done :**
 
+####### Coding part starts ###########################
+
 19-07-2020 - Attached the notebooks to run the file on pa100k and rapv2 dataset with baseline code 
 
 26-07-2020 - Added Vgg models code to run pa100k - (Vgg_valencebond_PA100k_notebook (1).ipynb)
@@ -85,5 +89,18 @@ TSAI - (Any thing is okay as along as above is satisfied)
 
 30-07-2020 - Added Mobilenet models code to run pa100k - (Mobile_net_PA100k_notebook.ipynb) - modified input channel
 
+30-07-2020 - Added MNAS net - (MNAS_net_PA100k_notebook.ipynb)
+
+30-07-2020 - Added Squeeze net - (Squeze_net_PA100k_notebook.ipynb)
+
+30-07-2020 - Added Alex net - (Alexnet_net_PA100k_notebook.ipynb)
+
+30-07-2020 - Added Inception net - (Inception_net_PA100k_notebook.ipynb)
+
+30-07-2020 - Added SE_resnet net - (se_resnet_net_PA100k_notebook.ipynb)
+
+######### Coding part Completed ###########################
+
+######### Hyper tunning and training part Start ###########################
 
 
