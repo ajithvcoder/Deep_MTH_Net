@@ -62,18 +62,27 @@ Aug 2 - Aug 17 - paper writing
 **Accuracy to be achieved :**
 
 Name   - Precision
+
 Pa100k - 89.41
+
 Rapv2- 81.99
+
 PETA - 86.99
+
 Rapv1 - 82.84
+
 MARKET-1501 - (optional)
+
 TSAI - (Any thing is okay as along as above is satisfied)
 
 **Works done :**
 
 19-07-2020 - Attached the notebooks to run the file on pa100k and rapv2 dataset with baseline code 
+
 26-07-2020 - Added Vgg models code to run pa100k - (Vgg_valencebond_PA100k_notebook (1).ipynb)
+
 30-07-2020 - Added Densenet models code to run pa100k - (Dense_net_PA100k_notebook.ipynb)  - modified the input channel and batch size
+
 30-07-2020 - Added Mobilenet models code to run pa100k - (Mobile_net_PA100k_notebook.ipynb) - modified input channel
 
 
