@@ -57,9 +57,9 @@ July 17 - July 20 - Literature survey
 
 July 21 - Aug 2 - Model preparation
 
-Aug 2 - Aug 10 - Training part
+Aug 2 - Aug 20 - Training part
 
-Aug 10 - Aug 20 - paper writing
+Aug 20 - Aug 30 - paper writing
 
 **Accuracy to be achieved :**
 
@@ -101,6 +101,60 @@ TSAI - (Any thing is okay as along as above is satisfied)
 
 ######### Coding part Completed ###########################
 
+Authors of the base paper have not released original pkl file or dataset so we are going with existing methods
+
 ######### Hyper tunning and training part Start ###########################
+
+### Pa100k 
+
+Dataset link - 
+
+| Model name | Ckpt file | logs file | png file of final accuracy | epochs trained | number of trainval and test data |
+| --- | --- | --- | --- | --- | --- | 
+| Resnet50
+| Densenet121
+| Alexnet
+| mnasnet
+| shufflenetv2
+| squeezenet
+| vgg
+| inception (optional if it works)
+
+
+
+### Rapv2 
+
+Dataset link - 
+
+| Model name | Ckpt file | logs file | snap -png file of final accuracy | epochs trained | number of trainval and test data |
+| --- | --- | --- | --- | --- | --- | 
+| Resnet50
+| Densenet121
+| Alexnet
+| mnasnet
+| shufflenetv2
+| squeezenet
+| vgg
+| inception (optional if it works)
+
+
+
+### PETA
+
+Dataset link - 
+
+| Model name | Ckpt file | logs file | png file of final accuracy | epochs trained | number of trainval and test data |
+| --- | --- | --- | --- | --- | --- | 
+| Resnet50
+| Densenet121
+| Alexnet
+| mnasnet
+| shufflenetv2
+| squeezenet
+| vgg
+| inception (optional if it works)
+
+
+
 
 
