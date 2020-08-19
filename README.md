@@ -143,9 +143,10 @@ Dataset link -
 
 Dataset link - 
 
+
 | Model name | Ckpt file | logs file | png file of final accuracy | epochs trained | number of trainval and test data |
 | --- | --- | --- | --- | --- | --- | 
-| Resnet50
+| Resnet50  | drive | drive | ma: 0.8522, Acc: 0.7924 | 50 | trainset -11400, test set: 7600
 | Densenet121
 | Alexnet
 | mnasnet
@@ -154,7 +155,7 @@ Dataset link -
 | vgg
 | inception (optional if it works)
 
-
+Resnet results - https://drive.google.com/drive/u/1/folders/1-FlKmYoj7wE0TsAgEjjFUqzAl_6-u6Eu 
 
 
 
