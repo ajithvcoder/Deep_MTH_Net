@@ -22,5 +22,6 @@ def argument_parser():
     parser.add_argument('--device', default=0, type=str, help='gpu device ids for CUDA_VISIBLE_DEVICES')
     parser.add_argument("--redirector", action='store_false')
     parser.add_argument('--use_bn', action='store_false')
+    parser.add_argument("--checkpoint", type=str)
 
     return parser
