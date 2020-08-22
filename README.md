@@ -119,7 +119,7 @@ Dataset link -
 | squeezenet
 | vgg
 | inception (optional if it works)
-
+| seresnet 
 
 
 ### Rapv2 
@@ -136,7 +136,7 @@ Dataset link -
 | squeezenet
 | vgg
 | inception (optional if it works)
-
+| seresnet 
 
 
 ### PETA
