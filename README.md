@@ -111,13 +111,13 @@ Dataset link -
 
 | Model name | Ckpt file | logs file | png file of final accuracy | epochs trained | number of trainval and test data |
 | --- | --- | --- | --- | --- | --- | 
-| Resnet50
-| Densenet121
+| Resnet50 | [drive](https://drive.google.com/file/d/1_F9gPOwwPrQUDfJyfAFVNnwFfiOXSe-M/view?usp=sharing) | [drive](https://docs.google.com/document/d/13YE5wJRlxgLH6xaUtkjdYl2kd2tzSM8-E0qy602z7Xg/edit?usp=sharing)|  ma: 0.7992, Acc: 0.7853, Prec: 0.8718, Rec: 0.8667 | trainval set: 90000, test set: 10000, attr_num : 26
+| Densenet121 | [drive](https://drive.google.com/file/d/1uR6weiL5cy7-GTtZfQJ6MeMuJlETBtHL/view?usp=sharing) | [drive]()| ma: 0.7584, Acc: 0.7472, Prec: 0.8461, Rec: 0.8384 | 50 | trainval set: 90000, test set: 10000, attr_num : 26
 | Alexnet
 | mnasnet
 | shufflenetv2
 | squeezenet
-| vgg
+| vgg |
 | inception (optional if it works)
 | seresnet 
 
@@ -128,13 +128,14 @@ Dataset link -
 
 | Model name | Ckpt file | logs file | snap -png file of final accuracy | epochs trained | number of trainval and test data |
 | --- | --- | --- | --- | --- | --- | 
-| Resnet50
-| Densenet121
+| Resnet50 | [drive](https://drive.google.com/file/d/17Mxm90621He58LzAoQyERdJ98NJ6C_cJ/view?usp=sharing) | [drive](https://docs.google.com/document/d/1rM57imAnr_PZAhINtqFFlFnm0Zar9T3qSpc1mSJSwmA/edit?usp=sharing) | ma: 0.7862, Acc: 0.6640, Prec: 0.7794, Rec: 0.7974 | 50 | trainval set: 67943, test set: 16985, attr_num : 54
+| Densenet121 | [drive](https://drive.google.com/file/d/1Tvw98ZBc73mcLLuwUpr6debnfKlCTSs-/view?usp=sharing)| [drive](https://docs.google.com/document/d/1vLNnuoh7uIXG7zLeM6TW_BEZE_35DlnizPPd2x2OQiA/edit?usp=sharing) |  ma: 0.7666, Acc: 0.6488, Prec: 0.7729, Rec: 0.7801 | 50 |
+trainval set: 67943, test set: 16985, attr_num : 54
 | Alexnet
 | mnasnet
 | shufflenetv2
 | squeezenet
-| vgg
+| vgg | [drive](https://drive.google.com/file/d/1XCUMdN0TjZJGUFOQ6A71cMYJvv0Uv9y6/view?usp=sharing) | [drive](https://docs.google.com/document/d/1fK3sj1Pos3tjVsjTggpSp0nK8uwleVlZ3YuywggpeW8/edit?usp=sharing)| ma: 0.7407, Acc: 0.6270, Prec: 0.7569, Rec: 0.7674, | 50 | trainval set: 67943, test set: 16985, attr_num : 54
 | inception (optional if it works)
 | seresnet 
 
