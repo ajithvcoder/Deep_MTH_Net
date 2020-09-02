@@ -132,7 +132,6 @@ Dataset link -
 | Densenet121 | [drive](https://drive.google.com/file/d/1Tvw98ZBc73mcLLuwUpr6debnfKlCTSs-/view?usp=sharing)| [drive](https://docs.google.com/document/d/1vLNnuoh7uIXG7zLeM6TW_BEZE_35DlnizPPd2x2OQiA/edit?usp=sharing) |  ma: 0.7666, Acc: 0.6488, Prec: 0.7729, Rec: 0.7801 | 50 |
 trainval set: 67943, test set: 16985, attr_num : 54
 | Alexnet | [drive](https://drive.google.com/file/d/1g3C2eMJNGqSDFV36khL4HQO2QQKAFZPe/view?usp=sharing) | [drive](https://docs.google.com/document/d/1cFnSCNkDgtSHUXQxLRU1acf4oySrV0uUyFiBoKUzQ3Q/edit?usp=sharing)| ma: 0.7252, Acc: 0.6150, Prec: 0.7618, Rec: 0.7431, F1: 0.7468| 50| trainval set: 67943, test set: 16985, attr_num : 54
-
 | mnasnet
 | shufflenetv2
 | squeezenet
