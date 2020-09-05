@@ -158,7 +158,6 @@ Dataset link -
 | se_resnet  | drive | drive | ma: 0.8129, Acc: 0.7448 | 50 | trainset -11400, test set: 7600
 | mobilenet  | drive | drive | ma:0.8065, acc:0.7278 | 50 | trainset -11400, test set: 7600
 
-Will update the accuracys soon
 
 Resnet results - https://drive.google.com/drive/u/1/folders/1-FlKmYoj7wE0TsAgEjjFUqzAl_6-u6Eu 
 all notebooks - https://drive.google.com/file/d/1Nd4Zy2vFKdenHZM5V5docBwnwlhAQlOL/view?usp=sharing
@@ -301,3 +300,20 @@ footwear accuracy  -  0.6748148148148149
 emotion accuracy  -  0.7518518518518519
 bodypose accuracy  -  0.7333333333333333
 
+
+
+Draft paper topics :
+
+Abstract   - Ajith
+1.Introduction - Hammad
+2.Related Work - Hammad
+3.Proposed method - Hammad
+    3.1 -
+    3.2 - loss
+4.Experiments - Ajith
+    4.1 Datasets
+    4.2 Evaluations
+    4.3 Implementation Details
+    4.4 Experiments on pedestrian attribute dataset
+5. Conclusion - Ajith
+6. Acknowledgements - Ajith 
