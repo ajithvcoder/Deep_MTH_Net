@@ -160,7 +160,7 @@ Dataset link -
 Will update the accuracys soon
 
 Resnet results - https://drive.google.com/drive/u/1/folders/1-FlKmYoj7wE0TsAgEjjFUqzAl_6-u6Eu 
-all notebooks - 
+all notebooks - https://drive.google.com/file/d/1Nd4Zy2vFKdenHZM5V5docBwnwlhAQlOL/view?usp=sharing
 
 ### HA-13.5k-TSAI
 
@@ -181,6 +181,8 @@ Attributes - 27
 | inception (optional if it works) |
 | se_resnet  | drive | drive | ma: 0.6905,Acc: 0.5427 | 50 | trainset -12150, test set: 1350
 | mobilenet  | drive | drive | ma: 0.6572,Acc: 0.5026 | 50 | trainset -12150, test set: 1350
+
+All notebooks/drive links - https://drive.google.com/file/d/1Nd4Zy2vFKdenHZM5V5docBwnwlhAQlOL/view?usp=sharing
 
 TSAI Accuracy :
 
