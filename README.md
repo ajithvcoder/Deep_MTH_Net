@@ -161,7 +161,7 @@ Will update the accuracys soon
 Resnet results - https://drive.google.com/drive/u/1/folders/1-FlKmYoj7wE0TsAgEjjFUqzAl_6-u6Eu 
 
 
-### TSAI_data
+### PAU-TSAI
 
 Dataset link - 
 
