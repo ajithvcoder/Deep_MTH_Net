@@ -111,13 +111,13 @@ Dataset link -
 
 | Model name | Ckpt file | logs file | png file of final accuracy | epochs trained | number of trainval and test data |
 | --- | --- | --- | --- | --- | --- | 
-| Resnet50
-| Densenet121
-| Alexnet
+| Resnet50 | [drive](https://drive.google.com/file/d/1_F9gPOwwPrQUDfJyfAFVNnwFfiOXSe-M/view?usp=sharing) | [drive](https://docs.google.com/document/d/13YE5wJRlxgLH6xaUtkjdYl2kd2tzSM8-E0qy602z7Xg/edit?usp=sharing)| ma: 0.7992, Acc: 0.7853, Prec: 0.8718, Rec: 0.8667 | 50 | trainval set: 90000, test set: 10000, attr_num : 26 |
+| Densenet121 | [drive](https://drive.google.com/file/d/1uR6weiL5cy7-GTtZfQJ6MeMuJlETBtHL/view?usp=sharing) | [drive](https://docs.google.com/document/d/1BAaB6z8y5hgv0d1bO2qAohJMlD6sJu-u968DpLcbcw4/edit?usp=sharing)|  ma: 0.7579, Acc: 0.7448, Prec: 0.8460, Rec: 0.8358 | 50 | trainval set: 90000, test set: 10000, attr_num : 26 |
+| Alexnet | [drive](https://drive.google.com/file/d/16xo6nyM7sZ8rZEKN4rtq2lO0LJ2CVMZi/view?usp=sharing) | [drive](https://docs.google.com/document/d/10_MCfFhN2Lkbj2oGnO0yyyPFgz9X0gsKM26vfKiNzq8/edit?usp=sharing) | ma: 0.7584, Acc: 0.7472, Prec: 0.8461, Rec: 0.8384 | 50 | trainval set: 90000, test set: 10000, attr_num : 26 |
 | mnasnet
 | shufflenetv2
-| squeezenet
-| vgg
+| squeezenet | [drive](https://drive.google.com/file/d/1cOuE9a5PxISjVtNeQGPLlwovjysePFeP/view?usp=sharing) | [drive](https://docs.google.com/document/d/19F-q4nXUmXywYa-CZUvI5Tu6kYjwkE-_fqRbaUmP-QA/edit?usp=sharing) | ma: 0.7203, Acc: 0.7016, Prec: 0.8234, Rec: 0.8039 | 50 | trainval set: 90000, test set: 10000, attr_num : 26 |
+| vgg | [drive](https://drive.google.com/file/d/1F4DMX5tuqfwTig-L7J0PWZUd2JIMHfBn/view?usp=sharing) | [drive](https://docs.google.com/document/d/1m686ZghKw0QIqgg_pErDXuPmtO1ayuZKuIxKYKi78WU/edit?usp=sharing) |  ma: 0.7711, Acc: 0.7333, Prec: 0.8391, Rec: 0.8303 | 50 | trainval set: 90000, test set: 10000, attr_num : 26 |
 | inception (optional if it works)
 | seresnet 
 
@@ -128,13 +128,14 @@ Dataset link -
 
 | Model name | Ckpt file | logs file | snap -png file of final accuracy | epochs trained | number of trainval and test data |
 | --- | --- | --- | --- | --- | --- | 
-| Resnet50
-| Densenet121
-| Alexnet
+| Resnet50 | [drive](https://drive.google.com/file/d/17Mxm90621He58LzAoQyERdJ98NJ6C_cJ/view?usp=sharing) | [drive](https://docs.google.com/document/d/1rM57imAnr_PZAhINtqFFlFnm0Zar9T3qSpc1mSJSwmA/edit?usp=sharing) | ma: 0.7862, Acc: 0.6640, Prec: 0.7794, Rec: 0.7974 | 50 | trainval set: 67943, test set: 16985, attr_num : 54 |
+| Densenet121 | [drive](https://drive.google.com/file/d/1Tvw98ZBc73mcLLuwUpr6debnfKlCTSs-/view?usp=sharing)| [drive](https://docs.google.com/document/d/1vLNnuoh7uIXG7zLeM6TW_BEZE_35DlnizPPd2x2OQiA/edit?usp=sharing) |  ma: 0.7666, Acc: 0.6488, Prec: 0.7729, Rec: 0.7801 | 50 |
+trainval set: 67943, test set: 16985, attr_num : 54 |
+| Alexnet | [drive](https://drive.google.com/file/d/1g3C2eMJNGqSDFV36khL4HQO2QQKAFZPe/view?usp=sharing) | [drive](https://docs.google.com/document/d/1cFnSCNkDgtSHUXQxLRU1acf4oySrV0uUyFiBoKUzQ3Q/edit?usp=sharing)| ma: 0.7252, Acc: 0.6150, Prec: 0.7618, Rec: 0.7431, F1: 0.7468| 50| trainval set: 67943, test set: 16985, attr_num : 54 |
 | mnasnet
 | shufflenetv2
-| squeezenet
-| vgg
+| squeezenet | [drive](https://drive.google.com/file/d/1MRxfnImg82DKpgm7w48uCHbchByKUsu-/view?usp=sharing) | [drive](https://docs.google.com/document/d/1ny7gBsiQb9FIvm1BqHGDY68_cu2e1glqhraWUnC-7HM/edit?usp=sharing) | ma: 0.7407, Acc: 0.6270, Prec: 0.7569, Rec: 0.7674 | 50 | trainval set: 67943, test set: 16985, attr_num : 54
+| vgg | [drive](https://drive.google.com/file/d/1XCUMdN0TjZJGUFOQ6A71cMYJvv0Uv9y6/view?usp=sharing) | [drive](https://docs.google.com/document/d/1fK3sj1Pos3tjVsjTggpSp0nK8uwleVlZ3YuywggpeW8/edit?usp=sharing)| ma: 0.7407, Acc: 0.6270, Prec: 0.7569, Rec: 0.7674, | 50 | trainval set: 67943, test set: 16985, attr_num : 54
 | inception (optional if it works)
 | seresnet 
 
