@@ -174,7 +174,7 @@ Attributes - 27
 | Resnet50  | drive | drive | ma: 0.6868,Acc: 0.5437 | 50 | trainset -12150, test set: 1350
 | Densenet121 | drive | drive | ma: 0.6647, Acc: 0.5271 | 50 | trainset -12150, test set: 1350
 | Alexnet | drive | drive | ma: 0.6451, Acc: 0.5035 | 50 | trainset -12150, test set: 1350
-| mnasnet | drive | drive | - | 50 | trainset -12150, test set: 1350
+| mnasnet | drive | drive | ma: 0.50, Acc:0.2980 | 50 | trainset -12150, test set: 1350
 | shufflenetv2 | drive | drive | ma: 0.6533,Acc: 0.5086 | 50 | trainset -12150, test set: 1350
 | squeezenet | drive | drive | ma: 0.5943,Acc: 0.4573 | 50 | trainset -12150, test set: 1350
 | vgg | drive | drive | ma: 0.5928,Acc: 0.4677 | 50 | trainset -12150, test set: 1350
@@ -300,17 +300,43 @@ footwear accuracy  -  0.6748148148148149
 emotion accuracy  -  0.7518518518518519
 bodypose accuracy  -  0.7333333333333333
 
+MNASnet :
+
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.43555555555555553
+Image quality accuracy  -  0.5481481481481482
+age accuracy  -  0.4192592592592593
+weight accuracy  -  0.6525925925925926
+carryingbag accuracy  -  0.32222222222222224
+footwear accuracy  -  0.43037037037037035
+emotion accuracy  -  0.7622222222222222
+bodypose accuracy  -  0.20296296296296296
+
+
+papers to read before writing :
+
+For ajith :
+An Attention-Based Deep Learning Model for Multiple Pedestrian
+Rethinking of Pedestrain Attribute Recognition
+
+For hammad:
+skiming - Clothes key point localization and attribute recognition via prior knowledge
+Hierarchial Feature Embedding for Attribute recogntion
+Texture and shape biased two-steam networks for clothing classification and attribute recognition
+Rethinking of Pedestrain Attribute Recognition
 
 
 Draft paper topics :
 
 Abstract   - Ajith
-1.Introduction - Hammad
-2.Related Work - Hammad
-3.Proposed method - Hammad
+1. Introduction - Hammad
+2. Related Work - Hammad
+3. Proposed method - Hammad
     3.1 -
     3.2 - loss
-4.Experiments - Ajith
+4. Experiments - Ajith
     4.1 Datasets
     4.2 Evaluations
     4.3 Implementation Details
