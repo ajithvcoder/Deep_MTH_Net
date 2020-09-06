@@ -319,12 +319,16 @@ papers to read before writing :
 
 For ajith :
 An Attention-Based Deep Learning Model for Multiple Pedestrian
+
 Rethinking of Pedestrain Attribute Recognition
 
 For hammad:
-skiming - Clothes key point localization and attribute recognition via prior knowledge
+skiming - Clothes key point localization and attribute recognition via prior knowledge 
+
 Hierarchial Feature Embedding for Attribute recogntion
+
 Texture and shape biased two-steam networks for clothing classification and attribute recognition
+
 Rethinking of Pedestrain Attribute Recognition
 
 
