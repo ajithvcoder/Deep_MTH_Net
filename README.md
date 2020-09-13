@@ -184,7 +184,7 @@ Attributes - 27
 
 All notebooks/drive links - https://drive.google.com/file/d/1Nd4Zy2vFKdenHZM5V5docBwnwlhAQlOL/view?usp=sharing
 
-TSAI Accuracy :
+HA-TSAI Accuracy on Strong base line (Attenation based):
 
 Alexnet :
 
@@ -314,22 +314,204 @@ footwear accuracy  -  0.43037037037037035
 emotion accuracy  -  0.7622222222222222
 bodypose accuracy  -  0.20296296296296296
 
+HA-TSAI on TSAI_net :
+age_output_acc : 44.5565
+bag_output_acc : 68.0444
+emotion_output_acc : 70.6149
+footwear_output_acc : 67.7923
+gender_output_acc : 91.1794
+image_quality_output_acc : 60.2319
+pose_output_acc : 87.5
+weight_output_acc : 65.2722
+
+
+### HA-TSAI on Dangweili's Deep Multi attribute recognition network :
+
+https://github.com/dangweili/pedestrian-attribute-recognition-pytorch.git 
+Epochs : 50 
+TSAI accuracy metric
+('shape gt label', (2700, 27))
+('pred prob shape', (2700, 27))
+('gender', 'accuracy  - ', 0.9274074074074075)
+('Image quality', 'accuracy  - ', 0.5648148148148148)
+('age', 'accuracy  - ', 0.37333333333333335)
+('weight', 'accuracy  - ', 0.644074074074074)
+('carryingbag', 'accuracy  - ', 0.7122222222222222)
+('footwear', 'accuracy  - ', 0.6688888888888889)
+('emotion', 'accuracy  - ', 0.6133333333333333)
+('bodypose', 'accuracy  - ', 0.8814814814814815)
+
+Evaluation on test set:
+Label-based evaluation: 
+ mA: 0.6678
+Instance-based evaluation: 
+ Acc: 0.5361, Prec: 0.6975, Rec: 0.6676, F1: 0.6822
+
+
+### HA-TSAI on Visuval attenation model :
+https://github.com/hguosc/visual_attention_consistency.git
+
+Epochs : 30 
+epoch: 29, train step: 0, Loss: 9.320457
+	cls loss: 7.4327;	flip_loss_l: 0.4751 flip_loss_s: 0.4202;	scale_loss: 0.9925
+epoch: 29, train step: 200, Loss: 10.829878
+	cls loss: 8.8861;	flip_loss_l: 0.4748 flip_loss_s: 0.4420;	scale_loss: 1.0269
+Epoch time:  424.5598879999998
+Saving model to /content/gdrive/My Drive/vi_ac_results//model_resnet50_epoch29.pth
+testing ... 
+prediction finished ....
+>>>>>>>>>>>>>>>>>>>>>>>> Average for Each Attribute >>>>>>>>>>>>>>>>>>>>>>>>>>>
+APs
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1.]
+precision scores
+[0.94046592 0.92587859 0.61413778 0.51890034 0.44923077 0.44927536
+ 0.49478881 0.3823934  0.368      0.63265306 0.69987119 0.34090909
+ 0.4953271  0.27868852 0.72125    0.60869565 0.74972973 0.81459566
+ 0.40291262 0.67909801 0.32098765 0.3        0.74576271 0.
+ 0.94910941 0.90832396 0.76818951]
+recall scores
+[0.91905565 0.95706737 0.86768448 0.32683983 0.43843844 0.26552463
+ 0.80177778 0.4082232  0.16312057 0.2137931  0.93409742 0.09375
+ 0.3392     0.1        0.64831461 0.21052632 0.89831606 0.79652845
+ 0.3487395  0.65964617 0.08813559 0.13003096 0.97384306 0.
+ 0.86342593 0.95618709 0.78411054]
+f1 scores
+[0.92963753 0.94121468 0.71921962 0.40106242 0.443769   0.33378197
+ 0.6119403  0.39488636 0.22604423 0.31958763 0.80019637 0.14705882
+ 0.40265907 0.14718615 0.68284024 0.31284916 0.81732469 0.80546075
+ 0.37387387 0.66923077 0.13829787 0.18142549 0.84467714 0.
+ 0.90424242 0.93164119 0.77606838]
+
+AP: 1.0
+F1-C: 0.528006521970672
+P-C: 0.5762657355237963
+R-C: 0.5254213600261832
+
+>>>>>>>>>>>>>>>>>>>>>>>> Overall Sample-Label Pairs >>>>>>>>>>>>>>>>>>>>>>>>>>>
+F1_O: 0.7160387805374133
+P_O: 0.6994569296657689
+R_O: 0.7334259259259259
+
+
+mA scores
+[0.93674051 0.92962981 0.55396635 0.63214199 0.63121529 0.59872738
+ 0.60850794 0.59291794 0.56522447 0.60337405 0.60108012 0.54116634
+ 0.61755181 0.54130435 0.76255509 0.59786792 0.74889852 0.84173987
+ 0.61906399 0.70754945 0.53263329 0.54440126 0.52343838 0.49980814
+ 0.92730379 0.89748029 0.85975918]
+mean mA
+0.6672610188954403
+
+
+test time:  3.703718000000663
+Current learning rate is: 0.00000
+epoch: 30, train step: 0, Loss: 10.257829
+	cls loss: 8.4541;	flip_loss_l: 0.4635 flip_loss_s: 0.3773;	scale_loss: 0.9629
+epoch: 30, train step: 200, Loss: 11.067913
+	cls loss: 9.1150;	flip_loss_l: 0.5018 flip_loss_s: 0.4119;	scale_loss: 1.0392
+Epoch time:  424.0990129999991
+Saving model to /content/gdrive/My Drive/vi_ac_results//model_resnet50_epoch30.pth
+testing ... 
+prediction finished ....
+>>>>>>>>>>>>>>>>>>>>>>>> Average for Each Attribute >>>>>>>>>>>>>>>>>>>>>>>>>>>
+APs
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1.]
+precision scores
+[0.92737896 0.94044503 0.61513761 0.51428571 0.44622093 0.45547945
+ 0.50028986 0.3837037  0.38095238 0.64285714 0.70565046 0.35294118
+ 0.49673203 0.24675325 0.6782988  0.57407407 0.77333333 0.82692308
+ 0.40731707 0.67266776 0.30952381 0.31914894 0.74450019 0.
+ 0.94264339 0.90985915 0.77624785]
+recall scores
+[0.93676223 0.94914135 0.85305344 0.35064935 0.46096096 0.28479657
+ 0.76711111 0.38032305 0.17021277 0.24827586 0.92320917 0.1125
+ 0.3648     0.11176471 0.6988764  0.23308271 0.86398964 0.78784957
+ 0.35084034 0.69250211 0.08813559 0.13931889 0.97032193 0.
+ 0.875      0.95618709 0.77892919]
+f1 scores
+[0.93204698 0.94477318 0.71481876 0.41698842 0.4534712  0.35046113
+ 0.60561404 0.3820059  0.23529412 0.35820896 0.7999007  0.17061611
+ 0.42066421 0.15384615 0.68843387 0.3315508  0.81615173 0.80691358
+ 0.37697517 0.68244085 0.13720317 0.19396552 0.84254204 0.
+ 0.90756303 0.93244804 0.77758621]
+
+AP: 1.0
+F1-C: 0.5345364381373553
+P-C: 0.5756801905042619
+R-C: 0.5314294078065425
+
+>>>>>>>>>>>>>>>>>>>>>>>> Overall Sample-Label Pairs >>>>>>>>>>>>>>>>>>>>>>>>>>>
+F1_O: 0.7168359843428289
+P_O: 0.7010222595919813
+R_O: 0.7333796296296297
+
+
+mA scores
+[0.93964928 0.93620642 0.55462955 0.64114237 0.63682266 0.60679596
+ 0.60990476 0.58714023 0.56897735 0.62022404 0.60977212 0.54975394
+ 0.62673735 0.5444199  0.76794649 0.60709189 0.76287717 0.84251167
+ 0.62078887 0.71406335 0.53200958 0.54946592 0.52027333 0.49980814
+ 0.93242945 0.89896397 0.85881867]
+mean mA
+0.671823127569605
+
+
+test time:  3.8747050000001764
+Saving model to /content/gdrive/My Drive/vi_ac_results//model_resnet50_final.pth
+testing ... 
+prediction finished ....
+>>>>>>>>>>>>>>>>>>>>>>>> Average for Each Attribute >>>>>>>>>>>>>>>>>>>>>>>>>>>
+APs
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1.]
+precision scores
+[0.92737896 0.94044503 0.61513761 0.51428571 0.44622093 0.45547945
+ 0.50028986 0.3837037  0.38095238 0.64285714 0.70565046 0.35294118
+ 0.49673203 0.24675325 0.6782988  0.57407407 0.77333333 0.82692308
+ 0.40731707 0.67266776 0.30952381 0.31914894 0.74450019 0.
+ 0.94264339 0.90985915 0.77624785]
+recall scores
+[0.93676223 0.94914135 0.85305344 0.35064935 0.46096096 0.28479657
+ 0.76711111 0.38032305 0.17021277 0.24827586 0.92320917 0.1125
+ 0.3648     0.11176471 0.6988764  0.23308271 0.86398964 0.78784957
+ 0.35084034 0.69250211 0.08813559 0.13931889 0.97032193 0.
+ 0.875      0.95618709 0.77892919]
+f1 scores
+[0.93204698 0.94477318 0.71481876 0.41698842 0.4534712  0.35046113
+ 0.60561404 0.3820059  0.23529412 0.35820896 0.7999007  0.17061611
+ 0.42066421 0.15384615 0.68843387 0.3315508  0.81615173 0.80691358
+ 0.37697517 0.68244085 0.13720317 0.19396552 0.84254204 0.
+ 0.90756303 0.93244804 0.77758621]
+
+AP: 1.0
+F1-C: 0.5345364381373553
+P-C: 0.5756801905042619
+R-C: 0.5314294078065425
+
+>>>>>>>>>>>>>>>>>>>>>>>> Overall Sample-Label Pairs >>>>>>>>>>>>>>>>>>>>>>>>>>>
+F1_O: 0.7168359843428289
+P_O: 0.7010222595919813
+R_O: 0.7333796296296297
+
+
+mA scores
+[0.93964928 0.93620642 0.55462955 0.64114237 0.63682266 0.60679596
+ 0.60990476 0.58714023 0.56897735 0.62022404 0.60977212 0.54975394
+ 0.62673735 0.5444199  0.76794649 0.60709189 0.76287717 0.84251167
+ 0.62078887 0.71406335 0.53200958 0.54946592 0.52027333 0.49980814
+ 0.93242945 0.89896397 0.85881867]
+mean mA
+0.671823127569605
+
 
 papers to read before writing :
 
-For ajith :
-An Attention-Based Deep Learning Model for Multiple Pedestrian
+https://github.com/ajithvallabai/person_attribute_recognition/tree/master/basepaperstobe_read
 
-Rethinking of Pedestrain Attribute Recognition
-
-For hammad:
-skiming - Clothes key point localization and attribute recognition via prior knowledge 
-
-Hierarchial Feature Embedding for Attribute recogntion
-
-Texture and shape biased two-steam networks for clothing classification and attribute recognition
-
-Rethinking of Pedestrain Attribute Recognition
+if we want further we can refer papers published in 2020 and 2019 from here 
+https://github.com/wangxiao5791509/Pedestrian-Attribute-Recognition-Paper-List
 
 
 Draft paper topics :
