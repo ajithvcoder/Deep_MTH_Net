@@ -315,6 +315,7 @@ emotion accuracy  -  0.7622222222222222
 bodypose accuracy  -  0.20296296296296296
 
 HA-TSAI on TSAI_net :
+
 age_output_acc : 44.5565
 bag_output_acc : 68.0444
 emotion_output_acc : 70.6149
@@ -360,10 +361,11 @@ Epoch time:  424.5598879999998
 Saving model to /content/gdrive/My Drive/vi_ac_results//model_resnet50_epoch29.pth
 testing ... 
 prediction finished ....
->>>>>>>>>>>>>>>>>>>>>>>> Average for Each Attribute >>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+### Average for Each Attribute 
+
 APs
-[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
- 1. 1. 1.]
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.  1. 1. 1.]
 precision scores
 [0.94046592 0.92587859 0.61413778 0.51890034 0.44923077 0.44927536
  0.49478881 0.3823934  0.368      0.63265306 0.69987119 0.34090909
@@ -388,7 +390,7 @@ F1-C: 0.528006521970672
 P-C: 0.5762657355237963
 R-C: 0.5254213600261832
 
->>>>>>>>>>>>>>>>>>>>>>>> Overall Sample-Label Pairs >>>>>>>>>>>>>>>>>>>>>>>>>>>
+### Overall Sample-Label Pairs 
 F1_O: 0.7160387805374133
 P_O: 0.6994569296657689
 R_O: 0.7334259259259259
@@ -414,10 +416,11 @@ Epoch time:  424.0990129999991
 Saving model to /content/gdrive/My Drive/vi_ac_results//model_resnet50_epoch30.pth
 testing ... 
 prediction finished ....
->>>>>>>>>>>>>>>>>>>>>>>> Average for Each Attribute >>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+### Average for Each Attribute 
+
 APs
-[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
- 1. 1. 1.]
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.  1. 1. 1.]
 precision scores
 [0.92737896 0.94044503 0.61513761 0.51428571 0.44622093 0.45547945
  0.50028986 0.3837037  0.38095238 0.64285714 0.70565046 0.35294118
@@ -442,7 +445,8 @@ F1-C: 0.5345364381373553
 P-C: 0.5756801905042619
 R-C: 0.5314294078065425
 
->>>>>>>>>>>>>>>>>>>>>>>> Overall Sample-Label Pairs >>>>>>>>>>>>>>>>>>>>>>>>>>>
+### Overall Sample-Label Pairs 
+
 F1_O: 0.7168359843428289
 P_O: 0.7010222595919813
 R_O: 0.7333796296296297
@@ -462,10 +466,12 @@ test time:  3.8747050000001764
 Saving model to /content/gdrive/My Drive/vi_ac_results//model_resnet50_final.pth
 testing ... 
 prediction finished ....
->>>>>>>>>>>>>>>>>>>>>>>> Average for Each Attribute >>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+### Average for Each Attribute 
+
 APs
-[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
- 1. 1. 1.]
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.  1. 1. 1.]
 precision scores
 [0.92737896 0.94044503 0.61513761 0.51428571 0.44622093 0.45547945
  0.50028986 0.3837037  0.38095238 0.64285714 0.70565046 0.35294118
@@ -490,7 +496,8 @@ F1-C: 0.5345364381373553
 P-C: 0.5756801905042619
 R-C: 0.5314294078065425
 
->>>>>>>>>>>>>>>>>>>>>>>> Overall Sample-Label Pairs >>>>>>>>>>>>>>>>>>>>>>>>>>>
+### Overall Sample-Label Pairs 
+
 F1_O: 0.7168359843428289
 P_O: 0.7010222595919813
 R_O: 0.7333796296296297
@@ -519,13 +526,23 @@ Draft paper topics :
 Abstract   - Ajith
 1. Introduction - Hammad
 2. Related Work - Hammad
-3. Proposed method - Hammad
-    3.1 -
-    3.2 - loss
+3. Proposed method - Ajith
+    
+    3.1 - Deep MTH
+    
 4. Experiments - Ajith
+
     4.1 Datasets
+
     4.2 Evaluations
+    
     4.3 Implementation Details
-    4.4 Experiments on pedestrian attribute dataset
+    
+    4.4 Results on HA-TSAI
+
+    4.5 Results on RAPv2,PA100k,PETA
+
+    4.6 Ablation Study
+
 5. Conclusion - Ajith
 6. Acknowledgements - Ajith 
