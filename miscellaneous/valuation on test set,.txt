@@ -1,0 +1,846 @@
+valuation on test set, 
+ ma: 0.5909,  pos_recall: 0.3555 , neg_recall: 0.8264 
+ Acc: 0.4650, Prec: 0.6834, Rec: 0.5699, F1: 0.6163
+2020-08-27_09:48:22
+------------------------------------------------------------
+2020-08-27_09:48:31, Step 19/380 in Ep 38, 0.45s  train_loss:22.2528
+2020-08-27_09:48:40, Step 39/380 in Ep 38, 0.46s  train_loss:20.8364
+2020-08-27_09:48:50, Step 59/380 in Ep 38, 0.46s  train_loss:19.6939
+2020-08-27_09:48:59, Step 79/380 in Ep 38, 0.46s  train_loss:21.8453
+2020-08-27_09:49:08, Step 99/380 in Ep 38, 0.45s  train_loss:22.3086
+2020-08-27_09:49:17, Step 119/380 in Ep 38, 0.45s  train_loss:21.1751
+2020-08-27_09:49:26, Step 139/380 in Ep 38, 0.45s  train_loss:20.8972
+2020-08-27_09:49:35, Step 159/380 in Ep 38, 0.44s  train_loss:22.1259
+2020-08-27_09:49:44, Step 179/380 in Ep 38, 0.45s  train_loss:21.0146
+2020-08-27_09:49:53, Step 199/380 in Ep 38, 0.45s  train_loss:20.1270
+2020-08-27_09:50:02, Step 219/380 in Ep 38, 0.45s  train_loss:21.8873
+2020-08-27_09:50:11, Step 239/380 in Ep 38, 0.46s  train_loss:18.9527
+2020-08-27_09:50:20, Step 259/380 in Ep 38, 0.45s  train_loss:21.6938
+2020-08-27_09:50:29, Step 279/380 in Ep 38, 0.45s  train_loss:20.1148
+2020-08-27_09:50:38, Step 299/380 in Ep 38, 0.45s  train_loss:20.5269
+2020-08-27_09:50:47, Step 319/380 in Ep 38, 0.45s  train_loss:20.5675
+2020-08-27_09:50:56, Step 339/380 in Ep 38, 0.45s  train_loss:19.6970
+2020-08-27_09:51:05, Step 359/380 in Ep 38, 0.45s  train_loss:21.2775
+2020-08-27_09:51:14, Step 379/380 in Ep 38, 0.35s  train_loss:20.5548
+Epoch 38, LR 0.00010000000000000003, Train_Time 172.41s, Loss: 20.8427
+100% 43/43 [00:08<00:00,  4.90it/s]
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (12150, 27)
+pred prob shape (12150, 27)
+gender accuracy  -  0.7965432098765433
+Image quality accuracy  -  0.5506995884773662
+age accuracy  -  0.3968724279835391
+weight accuracy  -  0.6235390946502057
+carryingbag accuracy  -  0.6215637860082305
+footwear accuracy  -  0.6505349794238683
+emotion accuracy  -  0.6993415637860082
+bodypose accuracy  -  0.7239506172839506
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5907,  pos_recall: 0.4044 , neg_recall: 0.7770 
+ Acc: 0.4861, Prec: 0.6329, Rec: 0.6329, F1: 0.6329
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.8044444444444444
+Image quality accuracy  -  0.5303703703703704
+age accuracy  -  0.41185185185185186
+weight accuracy  -  0.6325925925925926
+carryingbag accuracy  -  0.6177777777777778
+footwear accuracy  -  0.6755555555555556
+emotion accuracy  -  0.7503703703703704
+bodypose accuracy  -  0.725925925925926
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5926,  pos_recall: 0.4064 , neg_recall: 0.7787 
+ Acc: 0.4976, Prec: 0.6436, Rec: 0.6436, F1: 0.6436
+1350
+(1350, 27)
+out prob [0.47547653 0.5248366  0.5298675  0.28458452 0.36085156 0.29230356
+ 0.44590214 0.35523748 0.20593318 0.12324528 0.5679149  0.15180263
+ 0.34541816 0.13404559 0.42140806 0.20481414 0.51366127 0.40518042
+ 0.28822705 0.47384286 0.21111746 0.22320957 0.6213067  0.13641945
+ 0.22820476 0.5964887  0.3134818 ]
+Evaluation on train set, 
+ ma: 0.5897,  pos_recall: 0.3517 , neg_recall: 0.8277 
+ Acc: 0.4551, Prec: 0.6754, Rec: 0.5590, F1: 0.6065
+Evaluation on test set, 
+ ma: 0.5916,  pos_recall: 0.3565 , neg_recall: 0.8268 
+ Acc: 0.4647, Prec: 0.6828, Rec: 0.5695, F1: 0.6158
+2020-08-27_09:51:48
+------------------------------------------------------------
+2020-08-27_09:52:00, Step 19/380 in Ep 39, 0.45s  train_loss:22.2858
+2020-08-27_09:52:09, Step 39/380 in Ep 39, 0.46s  train_loss:20.2855
+2020-08-27_09:52:18, Step 59/380 in Ep 39, 0.46s  train_loss:20.0331
+2020-08-27_09:52:28, Step 79/380 in Ep 39, 0.46s  train_loss:21.6144
+2020-08-27_09:52:37, Step 99/380 in Ep 39, 0.45s  train_loss:20.0228
+2020-08-27_09:52:46, Step 119/380 in Ep 39, 0.45s  train_loss:20.9179
+2020-08-27_09:52:55, Step 139/380 in Ep 39, 0.45s  train_loss:21.9440
+2020-08-27_09:53:04, Step 159/380 in Ep 39, 0.44s  train_loss:19.2371
+2020-08-27_09:53:13, Step 179/380 in Ep 39, 0.45s  train_loss:19.4642
+2020-08-27_09:53:21, Step 199/380 in Ep 39, 0.45s  train_loss:21.3477
+2020-08-27_09:53:31, Step 219/380 in Ep 39, 0.45s  train_loss:19.1035
+2020-08-27_09:53:40, Step 239/380 in Ep 39, 0.45s  train_loss:21.1024
+2020-08-27_09:53:49, Step 259/380 in Ep 39, 0.45s  train_loss:21.6737
+2020-08-27_09:53:58, Step 279/380 in Ep 39, 0.45s  train_loss:21.2655
+2020-08-27_09:54:07, Step 299/380 in Ep 39, 0.45s  train_loss:21.0673
+2020-08-27_09:54:16, Step 319/380 in Ep 39, 0.45s  train_loss:21.9232
+2020-08-27_09:54:25, Step 339/380 in Ep 39, 0.45s  train_loss:22.0294
+2020-08-27_09:54:34, Step 359/380 in Ep 39, 0.45s  train_loss:20.4796
+2020-08-27_09:54:43, Step 379/380 in Ep 39, 0.35s  train_loss:20.7619
+Epoch 39, LR 0.00010000000000000003, Train_Time 172.76s, Loss: 20.8414
+100% 43/43 [00:08<00:00,  4.92it/s]
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (12150, 27)
+pred prob shape (12150, 27)
+gender accuracy  -  0.7988477366255144
+Image quality accuracy  -  0.5528395061728395
+age accuracy  -  0.39555555555555555
+weight accuracy  -  0.6254320987654322
+carryingbag accuracy  -  0.6206584362139917
+footwear accuracy  -  0.6474074074074074
+emotion accuracy  -  0.7011522633744856
+bodypose accuracy  -  0.7216460905349794
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5911,  pos_recall: 0.4047 , neg_recall: 0.7774 
+ Acc: 0.4858, Prec: 0.6329, Rec: 0.6329, F1: 0.6329
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.8051851851851852
+Image quality accuracy  -  0.5385185185185185
+age accuracy  -  0.40814814814814815
+weight accuracy  -  0.6311111111111111
+carryingbag accuracy  -  0.6266666666666667
+footwear accuracy  -  0.6651851851851852
+emotion accuracy  -  0.7533333333333333
+bodypose accuracy  -  0.7192592592592593
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5913,  pos_recall: 0.4047 , neg_recall: 0.7779 
+ Acc: 0.4977, Prec: 0.6434, Rec: 0.6434, F1: 0.6434
+1350
+(1350, 27)
+out prob [0.46724433 0.5334567  0.53188306 0.2685475  0.3687753  0.28552917
+ 0.4451936  0.36010155 0.21043807 0.12613773 0.56241065 0.15321456
+ 0.3488271  0.13761324 0.40800557 0.20898797 0.52473503 0.3664281
+ 0.30988553 0.5057795  0.20738032 0.21814048 0.6281702  0.1377213
+ 0.24249789 0.5727063  0.32849118]
+Evaluation on train set, 
+ ma: 0.5906,  pos_recall: 0.3524 , neg_recall: 0.8287 
+ Acc: 0.4561, Prec: 0.6769, Rec: 0.5598, F1: 0.6076
+Evaluation on test set, 
+ ma: 0.5908,  pos_recall: 0.3569 , neg_recall: 0.8246 
+ Acc: 0.4659, Prec: 0.6822, Rec: 0.5719, F1: 0.6171
+2020-08-27_09:55:04
+------------------------------------------------------------
+2020-08-27_09:55:14, Step 19/380 in Ep 40, 0.45s  train_loss:21.9804
+2020-08-27_09:55:23, Step 39/380 in Ep 40, 0.46s  train_loss:20.5023
+2020-08-27_09:55:32, Step 59/380 in Ep 40, 0.46s  train_loss:20.4165
+2020-08-27_09:55:42, Step 79/380 in Ep 40, 0.46s  train_loss:22.3568
+2020-08-27_09:55:51, Step 99/380 in Ep 40, 0.45s  train_loss:20.5948
+2020-08-27_09:56:00, Step 119/380 in Ep 40, 0.45s  train_loss:19.5917
+2020-08-27_09:56:09, Step 139/380 in Ep 40, 0.45s  train_loss:22.6970
+2020-08-27_09:56:18, Step 159/380 in Ep 40, 0.45s  train_loss:20.8779
+2020-08-27_09:56:26, Step 179/380 in Ep 40, 0.45s  train_loss:21.6214
+2020-08-27_09:56:35, Step 199/380 in Ep 40, 0.45s  train_loss:19.8292
+2020-08-27_09:56:44, Step 219/380 in Ep 40, 0.45s  train_loss:19.9246
+2020-08-27_09:56:54, Step 239/380 in Ep 40, 0.45s  train_loss:18.8339
+2020-08-27_09:57:03, Step 259/380 in Ep 40, 0.45s  train_loss:20.8388
+2020-08-27_09:57:12, Step 279/380 in Ep 40, 0.45s  train_loss:21.3245
+2020-08-27_09:57:21, Step 299/380 in Ep 40, 0.45s  train_loss:20.6487
+2020-08-27_09:57:30, Step 319/380 in Ep 40, 0.45s  train_loss:20.8762
+2020-08-27_09:57:39, Step 339/380 in Ep 40, 0.45s  train_loss:19.6516
+2020-08-27_09:57:48, Step 359/380 in Ep 40, 0.45s  train_loss:20.2597
+2020-08-27_09:57:57, Step 379/380 in Ep 40, 0.35s  train_loss:22.8472
+Epoch 40, LR 0.00010000000000000003, Train_Time 172.44s, Loss: 20.8579
+100% 43/43 [00:08<00:00,  4.82it/s]
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (12150, 27)
+pred prob shape (12150, 27)
+gender accuracy  -  0.7988477366255144
+Image quality accuracy  -  0.5524279835390946
+age accuracy  -  0.39827160493827163
+weight accuracy  -  0.6251028806584362
+carryingbag accuracy  -  0.6219753086419753
+footwear accuracy  -  0.6512757201646091
+emotion accuracy  -  0.700082304526749
+bodypose accuracy  -  0.7254320987654321
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5917,  pos_recall: 0.4056 , neg_recall: 0.7778 
+ Acc: 0.4875, Prec: 0.6342, Rec: 0.6342, F1: 0.6342
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.8103703703703704
+Image quality accuracy  -  0.5355555555555556
+age accuracy  -  0.4140740740740741
+weight accuracy  -  0.6348148148148148
+carryingbag accuracy  -  0.6133333333333333
+footwear accuracy  -  0.6718518518518518
+emotion accuracy  -  0.7533333333333333
+bodypose accuracy  -  0.7266666666666667
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5914,  pos_recall: 0.4048 , neg_recall: 0.7780 
+ Acc: 0.4991, Prec: 0.6450, Rec: 0.6450, F1: 0.6450
+1350
+(1350, 27)
+out prob [0.4740284  0.5263392  0.52876526 0.2751754  0.36851376 0.29300198
+ 0.45148396 0.3545985  0.20780739 0.1201119  0.5745285  0.147492
+ 0.33910045 0.13681357 0.42022365 0.20088069 0.517569   0.3762662
+ 0.31026486 0.49627608 0.20906514 0.2227474  0.62213224 0.1376856
+ 0.23131971 0.5920482  0.3191285 ]
+Evaluation on train set, 
+ ma: 0.5903,  pos_recall: 0.3525 , neg_recall: 0.8281 
+ Acc: 0.4560, Prec: 0.6768, Rec: 0.5597, F1: 0.6074
+Evaluation on test set, 
+ ma: 0.5914,  pos_recall: 0.3581 , neg_recall: 0.8247 
+ Acc: 0.4685, Prec: 0.6837, Rec: 0.5750, F1: 0.6195
+2020-08-27_09:58:32
+------------------------------------------------------------
+2020-08-27_09:58:42, Step 19/380 in Ep 41, 0.45s  train_loss:21.0350
+2020-08-27_09:58:52, Step 39/380 in Ep 41, 0.45s  train_loss:22.9133
+2020-08-27_09:59:01, Step 59/380 in Ep 41, 0.46s  train_loss:19.2917
+2020-08-27_09:59:10, Step 79/380 in Ep 41, 0.46s  train_loss:19.9353
+2020-08-27_09:59:19, Step 99/380 in Ep 41, 0.45s  train_loss:19.1354
+2020-08-27_09:59:28, Step 119/380 in Ep 41, 0.45s  train_loss:20.4159
+2020-08-27_09:59:37, Step 139/380 in Ep 41, 0.45s  train_loss:20.8741
+2020-08-27_09:59:46, Step 159/380 in Ep 41, 0.44s  train_loss:21.9731
+2020-08-27_09:59:55, Step 179/380 in Ep 41, 0.44s  train_loss:20.0776
+2020-08-27_10:00:04, Step 199/380 in Ep 41, 0.45s  train_loss:19.6385
+2020-08-27_10:00:13, Step 219/380 in Ep 41, 0.45s  train_loss:19.8623
+2020-08-27_10:00:22, Step 239/380 in Ep 41, 0.45s  train_loss:19.9146
+2020-08-27_10:00:31, Step 259/380 in Ep 41, 0.46s  train_loss:19.2623
+2020-08-27_10:00:40, Step 279/380 in Ep 41, 0.45s  train_loss:20.1926
+2020-08-27_10:00:49, Step 299/380 in Ep 41, 0.45s  train_loss:20.1460
+2020-08-27_10:00:58, Step 319/380 in Ep 41, 0.45s  train_loss:20.1987
+2020-08-27_10:01:07, Step 339/380 in Ep 41, 0.45s  train_loss:21.5205
+2020-08-27_10:01:16, Step 359/380 in Ep 41, 0.45s  train_loss:21.0291
+2020-08-27_10:01:25, Step 379/380 in Ep 41, 0.35s  train_loss:22.4990
+Epoch 41, LR 0.00010000000000000003, Train_Time 172.55s, Loss: 20.8372
+100% 43/43 [00:08<00:00,  5.15it/s]
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (12150, 27)
+pred prob shape (12150, 27)
+gender accuracy  -  0.7968724279835391
+Image quality accuracy  -  0.5504526748971194
+age accuracy  -  0.39539094650205764
+weight accuracy  -  0.6249382716049383
+carryingbag accuracy  -  0.6236213991769547
+footwear accuracy  -  0.651440329218107
+emotion accuracy  -  0.700164609053498
+bodypose accuracy  -  0.7223045267489712
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5911,  pos_recall: 0.4048 , neg_recall: 0.7774 
+ Acc: 0.4863, Prec: 0.6331, Rec: 0.6331, F1: 0.6331
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.8074074074074075
+Image quality accuracy  -  0.5311111111111111
+age accuracy  -  0.41333333333333333
+weight accuracy  -  0.6325925925925926
+carryingbag accuracy  -  0.6207407407407407
+footwear accuracy  -  0.6659259259259259
+emotion accuracy  -  0.7548148148148148
+bodypose accuracy  -  0.7311111111111112
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5923,  pos_recall: 0.4060 , neg_recall: 0.7786 
+ Acc: 0.4986, Prec: 0.6446, Rec: 0.6446, F1: 0.6446
+1350
+(1350, 27)
+out prob [0.47075453 0.52992886 0.5287205  0.2617306  0.37850836 0.29573998
+ 0.44898692 0.3553909  0.21081096 0.12363585 0.57180035 0.14703254
+ 0.3396946  0.14352027 0.4187865  0.20573018 0.5166161  0.36811543
+ 0.31028366 0.50376976 0.21216372 0.2247175  0.61681294 0.14186399
+ 0.22443938 0.5918106  0.32177645]
+Evaluation on train set, 
+ ma: 0.5905,  pos_recall: 0.3532 , neg_recall: 0.8279 
+ Acc: 0.4561, Prec: 0.6760, Rec: 0.5604, F1: 0.6077
+Evaluation on test set, 
+ ma: 0.5915,  pos_recall: 0.3579 , neg_recall: 0.8251 
+ Acc: 0.4667, Prec: 0.6819, Rec: 0.5734, F1: 0.6177
+2020-08-27_10:01:46
+------------------------------------------------------------
+2020-08-27_10:01:56, Step 19/380 in Ep 42, 0.45s  train_loss:20.9510
+2020-08-27_10:02:05, Step 39/380 in Ep 42, 0.45s  train_loss:21.2864
+2020-08-27_10:02:14, Step 59/380 in Ep 42, 0.46s  train_loss:19.1884
+2020-08-27_10:02:23, Step 79/380 in Ep 42, 0.46s  train_loss:21.0507
+2020-08-27_10:02:33, Step 99/380 in Ep 42, 0.46s  train_loss:19.7592
+2020-08-27_10:02:42, Step 119/380 in Ep 42, 0.45s  train_loss:18.7853
+2020-08-27_10:02:51, Step 139/380 in Ep 42, 0.44s  train_loss:21.0931
+2020-08-27_10:02:59, Step 159/380 in Ep 42, 0.45s  train_loss:21.1807
+2020-08-27_10:03:08, Step 179/380 in Ep 42, 0.45s  train_loss:20.7142
+2020-08-27_10:03:17, Step 199/380 in Ep 42, 0.45s  train_loss:20.9852
+2020-08-27_10:03:26, Step 219/380 in Ep 42, 0.46s  train_loss:19.5465
+2020-08-27_10:03:36, Step 239/380 in Ep 42, 0.45s  train_loss:20.2522
+2020-08-27_10:03:45, Step 259/380 in Ep 42, 0.45s  train_loss:20.8987
+2020-08-27_10:03:54, Step 279/380 in Ep 42, 0.45s  train_loss:21.1852
+2020-08-27_10:04:03, Step 299/380 in Ep 42, 0.45s  train_loss:21.1020
+2020-08-27_10:04:12, Step 319/380 in Ep 42, 0.45s  train_loss:21.1962
+2020-08-27_10:04:21, Step 339/380 in Ep 42, 0.45s  train_loss:22.5561
+2020-08-27_10:04:30, Step 359/380 in Ep 42, 0.45s  train_loss:21.5496
+2020-08-27_10:04:38, Step 379/380 in Ep 42, 0.35s  train_loss:20.5901
+Epoch 42, LR 0.00010000000000000003, Train_Time 172.38s, Loss: 20.8096
+100% 43/43 [00:09<00:00,  4.74it/s]
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (12150, 27)
+pred prob shape (12150, 27)
+gender accuracy  -  0.7964609053497942
+Image quality accuracy  -  0.5561316872427984
+age accuracy  -  0.39358024691358023
+weight accuracy  -  0.6252674897119341
+carryingbag accuracy  -  0.6210699588477366
+footwear accuracy  -  0.6509465020576132
+emotion accuracy  -  0.7008230452674897
+bodypose accuracy  -  0.7269135802469135
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5916,  pos_recall: 0.4053 , neg_recall: 0.7779 
+ Acc: 0.4870, Prec: 0.6339, Rec: 0.6339, F1: 0.6339
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.8022222222222222
+Image quality accuracy  -  0.5311111111111111
+age accuracy  -  0.4074074074074074
+weight accuracy  -  0.6325925925925926
+carryingbag accuracy  -  0.6222222222222222
+footwear accuracy  -  0.6696296296296296
+emotion accuracy  -  0.7533333333333333
+bodypose accuracy  -  0.7288888888888889
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5905,  pos_recall: 0.4040 , neg_recall: 0.7771 
+ Acc: 0.4973, Prec: 0.6434, Rec: 0.6434, F1: 0.6434
+1350
+(1350, 27)
+out prob [0.45355356 0.54630214 0.53174067 0.28219494 0.36162314 0.2872019
+ 0.4459067  0.3579262  0.21220897 0.12651496 0.56477183 0.15140577
+ 0.34586236 0.13717766 0.40445194 0.20412347 0.5315966  0.3799542
+ 0.2967204  0.49787682 0.20997764 0.2174731  0.62304515 0.13845277
+ 0.2213851  0.61060196 0.31367585]
+Evaluation on train set, 
+ ma: 0.5907,  pos_recall: 0.3533 , neg_recall: 0.8282 
+ Acc: 0.4562, Prec: 0.6765, Rec: 0.5604, F1: 0.6078
+Evaluation on test set, 
+ ma: 0.5908,  pos_recall: 0.3571 , neg_recall: 0.8245 
+ Acc: 0.4675, Prec: 0.6831, Rec: 0.5739, F1: 0.6187
+2020-08-27_10:05:12
+------------------------------------------------------------
+2020-08-27_10:05:22, Step 19/380 in Ep 43, 0.45s  train_loss:20.3312
+2020-08-27_10:05:31, Step 39/380 in Ep 43, 0.46s  train_loss:20.3311
+2020-08-27_10:05:40, Step 59/380 in Ep 43, 0.46s  train_loss:19.7262
+2020-08-27_10:05:50, Step 79/380 in Ep 43, 0.46s  train_loss:19.4476
+2020-08-27_10:05:59, Step 99/380 in Ep 43, 0.45s  train_loss:20.3064
+2020-08-27_10:06:08, Step 119/380 in Ep 43, 0.45s  train_loss:20.4695
+2020-08-27_10:06:17, Step 139/380 in Ep 43, 0.45s  train_loss:21.3848
+2020-08-27_10:06:26, Step 159/380 in Ep 43, 0.45s  train_loss:20.3648
+2020-08-27_10:06:35, Step 179/380 in Ep 43, 0.44s  train_loss:20.7158
+2020-08-27_10:06:44, Step 199/380 in Ep 43, 0.45s  train_loss:22.1014
+2020-08-27_10:06:53, Step 219/380 in Ep 43, 0.45s  train_loss:20.5712
+2020-08-27_10:07:02, Step 239/380 in Ep 43, 0.46s  train_loss:20.3993
+2020-08-27_10:07:11, Step 259/380 in Ep 43, 0.45s  train_loss:19.9607
+2020-08-27_10:07:20, Step 279/380 in Ep 43, 0.45s  train_loss:21.9946
+2020-08-27_10:07:29, Step 299/380 in Ep 43, 0.45s  train_loss:20.2179
+2020-08-27_10:07:38, Step 319/380 in Ep 43, 0.45s  train_loss:19.8027
+2020-08-27_10:07:47, Step 339/380 in Ep 43, 0.45s  train_loss:22.3450
+2020-08-27_10:07:56, Step 359/380 in Ep 43, 0.45s  train_loss:20.6443
+2020-08-27_10:08:05, Step 379/380 in Ep 43, 0.35s  train_loss:20.0785
+Epoch 43, LR 0.00010000000000000003, Train_Time 172.54s, Loss: 20.8026
+100% 43/43 [00:08<00:00,  5.12it/s]
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (12150, 27)
+pred prob shape (12150, 27)
+gender accuracy  -  0.7973662551440329
+Image quality accuracy  -  0.5523456790123457
+age accuracy  -  0.39596707818930044
+weight accuracy  -  0.6232921810699589
+carryingbag accuracy  -  0.6183539094650206
+footwear accuracy  -  0.6484773662551441
+emotion accuracy  -  0.7020576131687243
+bodypose accuracy  -  0.7277366255144033
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5913,  pos_recall: 0.4051 , neg_recall: 0.7775 
+ Acc: 0.4865, Prec: 0.6332, Rec: 0.6332, F1: 0.6332
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.8044444444444444
+Image quality accuracy  -  0.5370370370370371
+age accuracy  -  0.40296296296296297
+weight accuracy  -  0.6296296296296297
+carryingbag accuracy  -  0.6177777777777778
+footwear accuracy  -  0.6748148148148149
+emotion accuracy  -  0.7518518518518519
+bodypose accuracy  -  0.7333333333333333
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5925,  pos_recall: 0.4065 , neg_recall: 0.7786 
+ Acc: 0.4982, Prec: 0.6440, Rec: 0.6440, F1: 0.6440
+1350
+(1350, 27)
+out prob [0.45253468 0.5486998  0.53235674 0.2725652  0.36525655 0.28771654
+ 0.4440053  0.359701   0.21506895 0.1282441  0.5644666  0.15393367
+ 0.34669214 0.13837141 0.40467876 0.2042103  0.5306372  0.38513628
+ 0.29916134 0.4938783  0.20985715 0.21624157 0.62783754 0.13699073
+ 0.23818308 0.5903964  0.31662127]
+Evaluation on train set, 
+ ma: 0.5909,  pos_recall: 0.3533 , neg_recall: 0.8286 
+ Acc: 0.4565, Prec: 0.6768, Rec: 0.5603, F1: 0.6079
+Evaluation on test set, 
+ ma: 0.5928,  pos_recall: 0.3608 , neg_recall: 0.8247 
+ Acc: 0.4677, Prec: 0.6824, Rec: 0.5752, F1: 0.6189
+2020-08-27_10:08:26
+------------------------------------------------------------
+2020-08-27_10:08:38, Step 19/380 in Ep 44, 0.45s  train_loss:19.4405
+2020-08-27_10:08:47, Step 39/380 in Ep 44, 0.46s  train_loss:20.0242
+2020-08-27_10:08:57, Step 59/380 in Ep 44, 0.46s  train_loss:20.0448
+2020-08-27_10:09:06, Step 79/380 in Ep 44, 0.46s  train_loss:20.4271
+2020-08-27_10:09:15, Step 99/380 in Ep 44, 0.45s  train_loss:22.7812
+2020-08-27_10:09:24, Step 119/380 in Ep 44, 0.45s  train_loss:19.4578
+2020-08-27_10:09:33, Step 139/380 in Ep 44, 0.45s  train_loss:22.0686
+2020-08-27_10:09:42, Step 159/380 in Ep 44, 0.45s  train_loss:20.9865
+2020-08-27_10:09:51, Step 179/380 in Ep 44, 0.45s  train_loss:21.8135
+2020-08-27_10:10:00, Step 199/380 in Ep 44, 0.45s  train_loss:20.5675
+2020-08-27_10:10:09, Step 219/380 in Ep 44, 0.45s  train_loss:20.9353
+2020-08-27_10:10:18, Step 239/380 in Ep 44, 0.46s  train_loss:21.2560
+2020-08-27_10:10:27, Step 259/380 in Ep 44, 0.46s  train_loss:20.4313
+2020-08-27_10:10:36, Step 279/380 in Ep 44, 0.45s  train_loss:21.1910
+2020-08-27_10:10:45, Step 299/380 in Ep 44, 0.45s  train_loss:23.3336
+2020-08-27_10:10:54, Step 319/380 in Ep 44, 0.45s  train_loss:20.7675
+2020-08-27_10:11:03, Step 339/380 in Ep 44, 0.45s  train_loss:20.4297
+2020-08-27_10:11:12, Step 359/380 in Ep 44, 0.46s  train_loss:19.1564
+2020-08-27_10:11:21, Step 379/380 in Ep 44, 0.35s  train_loss:20.4452
+Epoch 44, LR 0.00010000000000000003, Train_Time 172.62s, Loss: 20.8294
+100% 43/43 [00:09<00:00,  4.64it/s]
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (12150, 27)
+pred prob shape (12150, 27)
+gender accuracy  -  0.7949794238683128
+Image quality accuracy  -  0.5502880658436214
+age accuracy  -  0.39481481481481484
+weight accuracy  -  0.6227160493827161
+carryingbag accuracy  -  0.6241152263374485
+footwear accuracy  -  0.6502880658436214
+emotion accuracy  -  0.7016460905349794
+bodypose accuracy  -  0.72559670781893
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5913,  pos_recall: 0.4053 , neg_recall: 0.7773 
+ Acc: 0.4861, Prec: 0.6331, Rec: 0.6331, F1: 0.6331
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.8066666666666666
+Image quality accuracy  -  0.5333333333333333
+age accuracy  -  0.4111111111111111
+weight accuracy  -  0.6318518518518519
+carryingbag accuracy  -  0.6244444444444445
+footwear accuracy  -  0.6681481481481482
+emotion accuracy  -  0.7525925925925926
+bodypose accuracy  -  0.7281481481481481
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5914,  pos_recall: 0.4049 , neg_recall: 0.7779 
+ Acc: 0.4990, Prec: 0.6445, Rec: 0.6445, F1: 0.6445
+1350
+(1350, 27)
+out prob [0.47114024 0.5298375  0.5315224  0.28786    0.35720408 0.29046866
+ 0.44655505 0.3564712  0.20856309 0.12533806 0.5684389  0.14996889
+ 0.3434535  0.1372555  0.4131754  0.204223   0.52384037 0.36422965
+ 0.31639722 0.50560427 0.20830193 0.22378798 0.6215917  0.13746609
+ 0.22001907 0.6056431  0.31800768]
+Evaluation on train set, 
+ ma: 0.5903,  pos_recall: 0.3523 , neg_recall: 0.8282 
+ Acc: 0.4553, Prec: 0.6757, Rec: 0.5594, F1: 0.6068
+Evaluation on test set, 
+ ma: 0.5906,  pos_recall: 0.3580 , neg_recall: 0.8232 
+ Acc: 0.4672, Prec: 0.6815, Rec: 0.5746, F1: 0.6180
+2020-08-27_10:11:56
+------------------------------------------------------------
+2020-08-27_10:12:06, Step 19/380 in Ep 45, 0.45s  train_loss:20.2651
+2020-08-27_10:12:15, Step 39/380 in Ep 45, 0.46s  train_loss:21.6360
+2020-08-27_10:12:25, Step 59/380 in Ep 45, 0.46s  train_loss:20.7847
+2020-08-27_10:12:34, Step 79/380 in Ep 45, 0.46s  train_loss:21.7177
+2020-08-27_10:12:43, Step 99/380 in Ep 45, 0.45s  train_loss:21.9394
+2020-08-27_10:12:52, Step 119/380 in Ep 45, 0.44s  train_loss:20.9777
+2020-08-27_10:13:01, Step 139/380 in Ep 45, 0.45s  train_loss:20.7797
+2020-08-27_10:13:10, Step 159/380 in Ep 45, 0.45s  train_loss:19.7650
+2020-08-27_10:13:19, Step 179/380 in Ep 45, 0.44s  train_loss:21.8791
+2020-08-27_10:13:28, Step 199/380 in Ep 45, 0.45s  train_loss:19.6914
+2020-08-27_10:13:37, Step 219/380 in Ep 45, 0.45s  train_loss:19.4263
+2020-08-27_10:13:46, Step 239/380 in Ep 45, 0.46s  train_loss:21.2585
+2020-08-27_10:13:55, Step 259/380 in Ep 45, 0.45s  train_loss:22.1148
+2020-08-27_10:14:04, Step 279/380 in Ep 45, 0.45s  train_loss:21.1732
+2020-08-27_10:14:13, Step 299/380 in Ep 45, 0.45s  train_loss:21.1210
+2020-08-27_10:14:22, Step 319/380 in Ep 45, 0.45s  train_loss:21.3340
+2020-08-27_10:14:31, Step 339/380 in Ep 45, 0.45s  train_loss:20.3749
+2020-08-27_10:14:40, Step 359/380 in Ep 45, 0.45s  train_loss:20.9780
+2020-08-27_10:14:49, Step 379/380 in Ep 45, 0.35s  train_loss:21.6909
+Epoch 45, LR 0.00010000000000000003, Train_Time 172.36s, Loss: 20.8158
+100% 43/43 [00:08<00:00,  5.03it/s]
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (12150, 27)
+pred prob shape (12150, 27)
+gender accuracy  -  0.7955555555555556
+Image quality accuracy  -  0.5550617283950617
+age accuracy  -  0.39753086419753086
+weight accuracy  -  0.6246913580246913
+carryingbag accuracy  -  0.6210699588477366
+footwear accuracy  -  0.6505349794238683
+emotion accuracy  -  0.7010699588477366
+bodypose accuracy  -  0.7235390946502057
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5915,  pos_recall: 0.4054 , neg_recall: 0.7776 
+ Acc: 0.4872, Prec: 0.6336, Rec: 0.6336, F1: 0.6336
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.8022222222222222
+Image quality accuracy  -  0.5311111111111111
+age accuracy  -  0.4066666666666667
+weight accuracy  -  0.6303703703703704
+carryingbag accuracy  -  0.6266666666666667
+footwear accuracy  -  0.6733333333333333
+emotion accuracy  -  0.7533333333333333
+bodypose accuracy  -  0.7288888888888889
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5928,  pos_recall: 0.4067 , neg_recall: 0.7789 
+ Acc: 0.4980, Prec: 0.6441, Rec: 0.6441, F1: 0.6441
+1350
+(1350, 27)
+out prob [0.4732612  0.5264935  0.53097713 0.28226346 0.36374298 0.28828642
+ 0.44298837 0.35792315 0.21276887 0.12704553 0.5617737  0.15488558
+ 0.34853265 0.13609457 0.4008099  0.2047239  0.5341875  0.39965916
+ 0.28840792 0.48148233 0.20981044 0.22120129 0.621247   0.1394743
+ 0.22604541 0.58506113 0.3227508 ]
+Evaluation on train set, 
+ ma: 0.5908,  pos_recall: 0.3531 , neg_recall: 0.8285 
+ Acc: 0.4558, Prec: 0.6758, Rec: 0.5596, F1: 0.6071
+Evaluation on test set, 
+ ma: 0.5921,  pos_recall: 0.3570 , neg_recall: 0.8272 
+ Acc: 0.4653, Prec: 0.6836, Rec: 0.5706, F1: 0.6166
+2020-08-27_10:15:10
+------------------------------------------------------------
+2020-08-27_10:15:20, Step 19/380 in Ep 46, 0.45s  train_loss:21.4746
+2020-08-27_10:15:29, Step 39/380 in Ep 46, 0.46s  train_loss:21.0389
+2020-08-27_10:15:38, Step 59/380 in Ep 46, 0.46s  train_loss:19.4040
+2020-08-27_10:15:48, Step 79/380 in Ep 46, 0.46s  train_loss:21.7808
+2020-08-27_10:15:57, Step 99/380 in Ep 46, 0.45s  train_loss:20.4382
+2020-08-27_10:16:06, Step 119/380 in Ep 46, 0.45s  train_loss:21.0105
+2020-08-27_10:16:15, Step 139/380 in Ep 46, 0.45s  train_loss:19.4984
+2020-08-27_10:16:24, Step 159/380 in Ep 46, 0.45s  train_loss:20.6744
+2020-08-27_10:16:32, Step 179/380 in Ep 46, 0.44s  train_loss:23.3334
+2020-08-27_10:16:41, Step 199/380 in Ep 46, 0.45s  train_loss:22.7664
+2020-08-27_10:16:50, Step 219/380 in Ep 46, 0.45s  train_loss:22.4058
+2020-08-27_10:17:00, Step 239/380 in Ep 46, 0.46s  train_loss:19.6689
+2020-08-27_10:17:09, Step 259/380 in Ep 46, 0.46s  train_loss:20.3256
+2020-08-27_10:17:18, Step 279/380 in Ep 46, 0.45s  train_loss:19.4649
+2020-08-27_10:17:27, Step 299/380 in Ep 46, 0.45s  train_loss:20.8338
+2020-08-27_10:17:36, Step 319/380 in Ep 46, 0.45s  train_loss:20.7813
+2020-08-27_10:17:45, Step 339/380 in Ep 46, 0.45s  train_loss:20.9739
+2020-08-27_10:17:54, Step 359/380 in Ep 46, 0.45s  train_loss:20.1847
+2020-08-27_10:18:02, Step 379/380 in Ep 46, 0.35s  train_loss:22.0325
+Epoch 46, LR 0.00010000000000000003, Train_Time 172.37s, Loss: 20.8199
+100% 43/43 [00:09<00:00,  4.64it/s]
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (12150, 27)
+pred prob shape (12150, 27)
+gender accuracy  -  0.7956378600823045
+Image quality accuracy  -  0.551358024691358
+age accuracy  -  0.39366255144032924
+weight accuracy  -  0.6232098765432099
+carryingbag accuracy  -  0.6216460905349794
+footwear accuracy  -  0.6502880658436214
+emotion accuracy  -  0.6993415637860082
+bodypose accuracy  -  0.7279012345679012
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5911,  pos_recall: 0.4050 , neg_recall: 0.7773 
+ Acc: 0.4860, Prec: 0.6329, Rec: 0.6329, F1: 0.6329
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.802962962962963
+Image quality accuracy  -  0.5385185185185185
+age accuracy  -  0.4222222222222222
+weight accuracy  -  0.6348148148148148
+carryingbag accuracy  -  0.6192592592592593
+footwear accuracy  -  0.6674074074074074
+emotion accuracy  -  0.7533333333333333
+bodypose accuracy  -  0.7185185185185186
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5920,  pos_recall: 0.4059 , neg_recall: 0.7780 
+ Acc: 0.4991, Prec: 0.6446, Rec: 0.6446, F1: 0.6446
+1350
+(1350, 27)
+out prob [0.47400296 0.52514404 0.5333117  0.29910448 0.34598976 0.29813936
+ 0.45337307 0.3502273  0.1993625  0.11710517 0.5780371  0.1422485
+ 0.33483148 0.13814819 0.41310772 0.20111382 0.5242862  0.3700361
+ 0.30774137 0.50415313 0.19723418 0.21661267 0.63858825 0.13042094
+ 0.24450672 0.56400347 0.3341083 ]
+Evaluation on train set, 
+ ma: 0.5913,  pos_recall: 0.3541 , neg_recall: 0.8286 
+ Acc: 0.4563, Prec: 0.6764, Rec: 0.5608, F1: 0.6080
+Evaluation on test set, 
+ ma: 0.5912,  pos_recall: 0.3638 , neg_recall: 0.8186 
+ Acc: 0.4685, Prec: 0.6773, Rec: 0.5798, F1: 0.6193
+2020-08-27_10:18:39
+------------------------------------------------------------
+2020-08-27_10:18:49, Step 19/380 in Ep 47, 0.44s  train_loss:21.1995
+2020-08-27_10:18:58, Step 39/380 in Ep 47, 0.46s  train_loss:21.2011
+2020-08-27_10:19:08, Step 59/380 in Ep 47, 0.46s  train_loss:20.3208
+2020-08-27_10:19:17, Step 79/380 in Ep 47, 0.46s  train_loss:20.3931
+2020-08-27_10:19:26, Step 99/380 in Ep 47, 0.45s  train_loss:20.4541
+2020-08-27_10:19:35, Step 119/380 in Ep 47, 0.45s  train_loss:20.9933
+2020-08-27_10:19:44, Step 139/380 in Ep 47, 0.44s  train_loss:21.0449
+2020-08-27_10:19:53, Step 159/380 in Ep 47, 0.45s  train_loss:21.9378
+2020-08-27_10:20:02, Step 179/380 in Ep 47, 0.44s  train_loss:19.6869
+2020-08-27_10:20:11, Step 199/380 in Ep 47, 0.45s  train_loss:19.9745
+2020-08-27_10:20:20, Step 219/380 in Ep 47, 0.45s  train_loss:20.6614
+2020-08-27_10:20:29, Step 239/380 in Ep 47, 0.45s  train_loss:22.6310
+2020-08-27_10:20:38, Step 259/380 in Ep 47, 0.46s  train_loss:21.4963
+2020-08-27_10:20:47, Step 279/380 in Ep 47, 0.45s  train_loss:21.7000
+2020-08-27_10:20:56, Step 299/380 in Ep 47, 0.45s  train_loss:22.1432
+2020-08-27_10:21:05, Step 319/380 in Ep 47, 0.45s  train_loss:20.3478
+2020-08-27_10:21:14, Step 339/380 in Ep 47, 0.45s  train_loss:22.0071
+2020-08-27_10:21:23, Step 359/380 in Ep 47, 0.45s  train_loss:21.3947
+2020-08-27_10:21:32, Step 379/380 in Ep 47, 0.35s  train_loss:21.8937
+Epoch 47, LR 0.00010000000000000003, Train_Time 172.36s, Loss: 20.7993
+100% 43/43 [00:08<00:00,  5.05it/s]
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (12150, 27)
+pred prob shape (12150, 27)
+gender accuracy  -  0.8010699588477366
+Image quality accuracy  -  0.5497942386831276
+age accuracy  -  0.3974485596707819
+weight accuracy  -  0.6243621399176955
+carryingbag accuracy  -  0.6236213991769547
+footwear accuracy  -  0.648559670781893
+emotion accuracy  -  0.6990123456790124
+bodypose accuracy  -  0.7261728395061728
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5917,  pos_recall: 0.4055 , neg_recall: 0.7779 
+ Acc: 0.4871, Prec: 0.6338, Rec: 0.6338, F1: 0.6338
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.8051851851851852
+Image quality accuracy  -  0.5348148148148149
+age accuracy  -  0.4111111111111111
+weight accuracy  -  0.6311111111111111
+carryingbag accuracy  -  0.6222222222222222
+footwear accuracy  -  0.6674074074074074
+emotion accuracy  -  0.7525925925925926
+bodypose accuracy  -  0.7311111111111112
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5901,  pos_recall: 0.4032 , neg_recall: 0.7771 
+ Acc: 0.4986, Prec: 0.6444, Rec: 0.6444, F1: 0.6444
+1350
+(1350, 27)
+out prob [0.44826955 0.55174047 0.5321394  0.2719281  0.3693601  0.2827683
+ 0.44124174 0.36078212 0.21674293 0.1287023  0.56209147 0.1527142
+ 0.34822404 0.1401757  0.4028615  0.20637439 0.5309294  0.38041297
+ 0.2961976  0.49989325 0.21516098 0.22046617 0.61589974 0.14139639
+ 0.21188888 0.6060727  0.31354466]
+Evaluation on train set, 
+ ma: 0.5916,  pos_recall: 0.3543 , neg_recall: 0.8289 
+ Acc: 0.4574, Prec: 0.6776, Rec: 0.5614, F1: 0.6089
+Evaluation on test set, 
+ ma: 0.5897,  pos_recall: 0.3516 , neg_recall: 0.8277 
+ Acc: 0.4662, Prec: 0.6862, Rec: 0.5690, F1: 0.6172
+2020-08-27_10:21:53
+------------------------------------------------------------
+2020-08-27_10:22:03, Step 19/380 in Ep 48, 0.45s  train_loss:21.4670
+2020-08-27_10:22:12, Step 39/380 in Ep 48, 0.46s  train_loss:20.2957
+2020-08-27_10:22:21, Step 59/380 in Ep 48, 0.46s  train_loss:21.4382
+2020-08-27_10:22:30, Step 79/380 in Ep 48, 0.46s  train_loss:22.6766
+2020-08-27_10:22:39, Step 99/380 in Ep 48, 0.45s  train_loss:21.3593
+2020-08-27_10:22:48, Step 119/380 in Ep 48, 0.45s  train_loss:21.4179
+2020-08-27_10:22:57, Step 139/380 in Ep 48, 0.44s  train_loss:21.2424
+2020-08-27_10:23:06, Step 159/380 in Ep 48, 0.44s  train_loss:20.0415
+2020-08-27_10:23:15, Step 179/380 in Ep 48, 0.45s  train_loss:20.7543
+2020-08-27_10:23:24, Step 199/380 in Ep 48, 0.45s  train_loss:22.4838
+2020-08-27_10:23:33, Step 219/380 in Ep 48, 0.45s  train_loss:22.1639
+2020-08-27_10:23:42, Step 239/380 in Ep 48, 0.45s  train_loss:20.3809
+2020-08-27_10:23:51, Step 259/380 in Ep 48, 0.46s  train_loss:19.2985
+2020-08-27_10:24:00, Step 279/380 in Ep 48, 0.45s  train_loss:20.1063
+2020-08-27_10:24:09, Step 299/380 in Ep 48, 0.45s  train_loss:20.3483
+2020-08-27_10:24:18, Step 319/380 in Ep 48, 0.45s  train_loss:20.2904
+2020-08-27_10:24:27, Step 339/380 in Ep 48, 0.45s  train_loss:20.8695
+2020-08-27_10:24:36, Step 359/380 in Ep 48, 0.45s  train_loss:21.2244
+2020-08-27_10:24:45, Step 379/380 in Ep 48, 0.35s  train_loss:21.3882
+Epoch 48, LR 0.00010000000000000003, Train_Time 172.27s, Loss: 20.7830
+100% 43/43 [00:09<00:00,  4.75it/s]
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (12150, 27)
+pred prob shape (12150, 27)
+gender accuracy  -  0.8004938271604938
+Image quality accuracy  -  0.5530864197530864
+age accuracy  -  0.39753086419753086
+weight accuracy  -  0.6241152263374485
+carryingbag accuracy  -  0.6235390946502057
+footwear accuracy  -  0.6498765432098765
+emotion accuracy  -  0.700164609053498
+bodypose accuracy  -  0.7303703703703703
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5927,  pos_recall: 0.4070 , neg_recall: 0.7785 
+ Acc: 0.4881, Prec: 0.6349, Rec: 0.6349, F1: 0.6349
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.8066666666666666
+Image quality accuracy  -  0.5266666666666666
+age accuracy  -  0.40370370370370373
+weight accuracy  -  0.6303703703703704
+carryingbag accuracy  -  0.62
+footwear accuracy  -  0.6674074074074074
+emotion accuracy  -  0.7488888888888889
+bodypose accuracy  -  0.7288888888888889
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5913,  pos_recall: 0.4046 , neg_recall: 0.7781 
+ Acc: 0.4953, Prec: 0.6416, Rec: 0.6416, F1: 0.6416
+1350
+(1350, 27)
+out prob [0.48099184 0.5194848  0.5252066  0.26631662 0.38059524 0.29068923
+ 0.44204494 0.35908368 0.21547413 0.1282737  0.56449807 0.15371203
+ 0.34767637 0.13653311 0.41810697 0.2041072  0.51838243 0.4152491
+ 0.2929929  0.46303245 0.21980461 0.23013961 0.60708266 0.14288358
+ 0.20643733 0.600109   0.3199996 ]
+Evaluation on train set, 
+ ma: 0.5916,  pos_recall: 0.3541 , neg_recall: 0.8291 
+ Acc: 0.4571, Prec: 0.6773, Rec: 0.5609, F1: 0.6085
+Evaluation on test set, 
+ ma: 0.5911,  pos_recall: 0.3532 , neg_recall: 0.8289 
+ Acc: 0.4628, Prec: 0.6848, Rec: 0.5663, F1: 0.6146
+2020-08-27_10:25:22
+------------------------------------------------------------
+2020-08-27_10:25:32, Step 19/380 in Ep 49, 0.45s  train_loss:19.5375
+2020-08-27_10:25:41, Step 39/380 in Ep 49, 0.46s  train_loss:20.8551
+2020-08-27_10:25:50, Step 59/380 in Ep 49, 0.46s  train_loss:21.4001
+2020-08-27_10:25:59, Step 79/380 in Ep 49, 0.46s  train_loss:20.5058
+2020-08-27_10:26:08, Step 99/380 in Ep 49, 0.45s  train_loss:20.9794
+2020-08-27_10:26:17, Step 119/380 in Ep 49, 0.45s  train_loss:20.4748
+2020-08-27_10:26:26, Step 139/380 in Ep 49, 0.45s  train_loss:19.4306
+2020-08-27_10:26:35, Step 159/380 in Ep 49, 0.45s  train_loss:19.8484
+2020-08-27_10:26:44, Step 179/380 in Ep 49, 0.45s  train_loss:21.7744
+2020-08-27_10:26:53, Step 199/380 in Ep 49, 0.45s  train_loss:22.0707
+2020-08-27_10:27:02, Step 219/380 in Ep 49, 0.45s  train_loss:19.6272
+2020-08-27_10:27:11, Step 239/380 in Ep 49, 0.45s  train_loss:21.4838
+2020-08-27_10:27:20, Step 259/380 in Ep 49, 0.45s  train_loss:19.7875
+2020-08-27_10:27:29, Step 279/380 in Ep 49, 0.45s  train_loss:21.7909
+2020-08-27_10:27:38, Step 299/380 in Ep 49, 0.45s  train_loss:21.0793
+2020-08-27_10:27:47, Step 319/380 in Ep 49, 0.45s  train_loss:19.8907
+2020-08-27_10:27:56, Step 339/380 in Ep 49, 0.45s  train_loss:23.5303
+2020-08-27_10:28:05, Step 359/380 in Ep 49, 0.45s  train_loss:20.9745
+2020-08-27_10:28:14, Step 379/380 in Ep 49, 0.35s  train_loss:21.5499
+Epoch 49, LR 1.0000000000000004e-05, Train_Time 172.50s, Loss: 20.7907
+100% 43/43 [00:08<00:00,  5.04it/s]
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (12150, 27)
+pred prob shape (12150, 27)
+gender accuracy  -  0.7987654320987654
+Image quality accuracy  -  0.5532510288065844
+age accuracy  -  0.3981893004115226
+weight accuracy  -  0.6258436213991769
+carryingbag accuracy  -  0.6188477366255144
+footwear accuracy  -  0.6498765432098765
+emotion accuracy  -  0.699917695473251
+bodypose accuracy  -  0.7261728395061728
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5920,  pos_recall: 0.4060 , neg_recall: 0.7780 
+ Acc: 0.4870, Prec: 0.6339, Rec: 0.6339, F1: 0.6339
+--------------------------------------------
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.8074074074074075
+Image quality accuracy  -  0.5288888888888889
+age accuracy  -  0.4148148148148148
+weight accuracy  -  0.6348148148148148
+carryingbag accuracy  -  0.6192592592592593
+footwear accuracy  -  0.6681481481481482
+emotion accuracy  -  0.7525925925925926
+bodypose accuracy  -  0.7266666666666667
+-----------------------------------------------
+1. is train set 2. is val set 
+Evaluation on modified  set, 
+ ma: 0.5915,  pos_recall: 0.4049 , neg_recall: 0.7782 
+ Acc: 0.4980, Prec: 0.6441, Rec: 0.6441, F1: 0.6441
+1350
+(1350, 27)
+out prob [0.48033813 0.519874   0.5288766  0.27313098 0.37236303 0.29674983
+ 0.44753295 0.3534567  0.20591836 0.12110726 0.573876   0.14523579
+ 0.3377419  0.14217247 0.41770038 0.20533547 0.5173824  0.37334737
+ 0.30741817 0.49922177 0.20994005 0.22628473 0.6181859  0.14055285
+ 0.21608864 0.5892387  0.32739654]
+Evaluation on train set, 
+ ma: 0.5916,  pos_recall: 0.3548 , neg_recall: 0.8285 
+ Acc: 0.4574, Prec: 0.6768, Rec: 0.5619, F1: 0.6089
+Evaluation on test set, 
+ ma: 0.5921,  pos_recall: 0.3586 , neg_recall: 0.8255 
+ Acc: 0.4671, Prec: 0.6831, Rec: 0.5736, F1: 0.6184
+2020-08-27_10:28:36
+------------------------------------------------------------
+hsv,  best_metrc : 0.5927539469666508 in epoch43

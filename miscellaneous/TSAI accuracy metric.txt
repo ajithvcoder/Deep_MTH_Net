@@ -1,0 +1,32 @@
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.8044444444444444
+Image quality accuracy  -  0.5370370370370371
+age accuracy  -  0.40296296296296297
+weight accuracy  -  0.6296296296296297
+carryingbag accuracy  -  0.6177777777777778
+footwear accuracy  -  0.6748148148148149
+emotion accuracy  -  0.7518518518518519
+bodypose accuracy  -  0.7333333333333333
+
+Evaluation on test set, 
+ ma: 0.5928,  pos_recall: 0.3608 , neg_recall: 0.8247 
+ Acc: 0.4677, Prec: 0.6824, Rec: 0.5752, F1: 0.6189
+
+
+TSAI accuracy metric
+shape gt label (1350, 27)
+pred prob shape (1350, 27)
+gender accuracy  -  0.8074074074074075
+Image quality accuracy  -  0.5288888888888889
+age accuracy  -  0.4148148148148148
+weight accuracy  -  0.6348148148148148
+carryingbag accuracy  -  0.6192592592592593
+footwear accuracy  -  0.6681481481481482
+emotion accuracy  -  0.7525925925925926
+bodypose accuracy  -  0.7266666666666667
+
+Evaluation on test set, 
+ ma: 0.5921,  pos_recall: 0.3586 , neg_recall: 0.8255 
+ Acc: 0.4671, Prec: 0.6831, Rec: 0.5736, F1: 0.6184
