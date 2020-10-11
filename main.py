@@ -36,7 +36,7 @@ from keras.callbacks import Callback
 from keras import backend as K
 
 import numpy as np
-
+from config import argument_parser
 
 
 class PersonDataGenerator(keras.utils.Sequence):
@@ -82,10 +82,14 @@ class PersonDataGenerator(keras.utils.Sequence):
 
 
 if __name__ == "__main__":
+
+    parser = argument_parser()
+    args = parser.parse_args()
+
     # load annotations
     df = pd.read_csv("data/ha-tsai/hvc_annotations.csv")
     del df["filename"]  # remove unwanted column
-    #df.head()
+    df.head()
 
     # one hot encoding of labels
     one_hot_df = pd.concat([
@@ -100,11 +104,7 @@ if __name__ == "__main__":
         pd.get_dummies(df.bodypose, prefix="bodypose"),
     ], axis=1)
 
-    #one_hot_df.head().T
 
-    #display(one_hot_df)
-
-    #one_hot_df.shape
 
     # Label columns per attribute
     _gender_cols_ = [col for col in one_hot_df.columns if col.startswith("gender")]
@@ -204,7 +204,7 @@ if __name__ == "__main__":
 
     save_weight = SaveWeights()
 
-    opt = SGD(lr=0.001, momentum=0.9)
+    opt = SGD(lr=0.001, momentum=args.momentum)
     model.compile(loss='categorical_crossentropy',
                   optimizer=opt,
                   metrics=['accuracy'])
@@ -233,7 +233,7 @@ if __name__ == "__main__":
     model.summary()
 
     last_executed_epoch = 0
-    nb_epoch = 150
+    nb_epoch = args.train_epoch
 
     print('Training for Epochs : ' + str(last_executed_epoch + 1) + ' - ' + str(nb_epoch) + " -------------------------------")
 

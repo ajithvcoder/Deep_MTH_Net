@@ -8,7 +8,7 @@ Creating conda environment:
 
 ```conda create -n ha-tsai python=3.6```
 
-```conda activate deepmth```
+```conda activate ha-tsai```
 
 Installing requirements
 
@@ -18,16 +18,16 @@ Train a model from scratch
 
 ``` python main.py```
 
-Train a model after certain epochs
+Train a model after certain epochs [To be done]
 
 ``` python main.py --middle ```
 
-Test a trained model by loading weights
+Test a trained model by loading weights [To be done]
 
 ``` python test.py --modelpath ```
 
 ### Architecture
-![Architecture](img/architecture.png)
+![Architecture](img/architecture.PNG)
 
 ### Visuvalize feature maps
 ![Visuvalize](img/visuval.png)
@@ -43,15 +43,10 @@ July 2020 to October 2020
 
 ### Credits
 
-- Rohan Shravan - He is the person who gave us the dataset and The Instructor at The School of A.I - Bangalore
-
-- The School of A.I - Associated with Deep Jyoti Saha and Ajith Kumar V
-
-- University of Stavanger - Associated with Hammad Ali
-
-- Zhejiang Normal University - Associated with Sun Feng
+- [Rohan Shravan ](https://in.linkedin.com/in/rohanshravan)
+- [The School of A.I](https://theschoolof.ai/)
 
 
-Please site our paper if our Dataset or model helps you in your research
+Please site our paper if our Dataset or our model(Deep-MTH) helps you in your research
 
 Citations:
