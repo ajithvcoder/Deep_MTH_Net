@@ -37,7 +37,7 @@ Test a trained model by loading weights [To be done]
 
 
 ### Visuvalize feature maps
-![Visuvalize](img/visual.jpg)
+![Visuvalize](img/visual.JPG)
 
 
 ### Credits
