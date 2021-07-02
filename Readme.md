@@ -1,18 +1,27 @@
-### Perception of Deep Multi Tower Head Network on Person Attribute Recognition
+### DeepMTH Net - Deep Multi Tower Head network 
 
-Model: Deep MTH = Deep Multi Tower Head Network
+This is Keras implementation of Deep Multi Tower Head network for the task of person attribute recognition
 
-Dataset released: HA-TSAI =s Human Attributes-The School of A.I
+[Perception of Deep Multi Tower Head Network on Person Attribute Recognition](https://dl.acm.org/doi/abs/10.1145/3447450.3447470), ICVIP 2020 
+
+**Dataset** - HA-TSAI - Human Attributes-The School of A.I
+
+### Architecture
+![Architecture](img/architecture.PNG)
+
+
+**Installation**
 
 Creating conda environment:
 
-```conda create -n ha-tsai python=3.6```
-
-```conda activate ha-tsai```
+    conda create -n ha-tsai python=3.6
+    conda activate ha-tsai
 
 Installing requirements
 
 ``` pip install requirements.txt ```
+
+**Traning model**
 
 Train a model from scratch
 
@@ -26,27 +35,19 @@ Test a trained model by loading weights [To be done]
 
 ``` python test.py --modelpath ```
 
-### Architecture
-![Architecture](img/architecture.PNG)
 
 ### Visuvalize feature maps
-![Visuvalize](img/visuval.png)
-
-
-
-Time took to complete this paper from scratch to end:
-
-(Team formation,Topic selection to the end of publishing in arxivx)
-
-July 2020 to October 2020
+![Visuvalize](img/visual.jpg)
 
 
 ### Credits
 
 - [Rohan Shravan ](https://in.linkedin.com/in/rohanshravan)
 - [The School of A.I](https://theschoolof.ai/)
+- Co Authors of paper
 
+### Cite
 
-Please site our paper if our Dataset or our model(Deep-MTH) helps you in your research
+Please site our paper if you use this code in your own work:
 
 Citations:

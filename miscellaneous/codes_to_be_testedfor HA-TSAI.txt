@@ -1,6 +1,0 @@
-https://github.com/hguosc/visual_attention_consistency - VAC-CVPR-19 - test it with  HA-TSAI_dataset and get accuracies
-
-https://github.com/chufengt/iccv19_attribute - ALM- ICCV -19 - test it with  HA-TSAI_dataset and get accuracies
-
-
-https://github.com/cvcode18/imbalanced_learning - MsVAA - ECCV 18 - test it with  HA-TSAI_dataset and get accuracies
