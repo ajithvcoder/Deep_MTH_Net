@@ -50,4 +50,14 @@ Test a trained model by loading weights [To be done]
 
 Please site our paper if you use this code in your own work:
 
-Citations:
+```
+@inproceedings{ajith2020deepmth,
+  title={Perception of Deep Multi Tower Head Network on Person Attribute Recognition},
+  author={Ajith Kumar V, Hammad Ali, Feng Sun, Deepjyoti Saha, IIlias Papachristos},
+  booktitle={The 4th International Conference on Video and Image Processing(ICVIP2020)},
+  year={2020}
+}
+
+Kumar V A, Ali H, Sun F, et al. Perception of Deep Multi Tower Head Network on Person Attribute Recognition[C]//2020 The 4th International Conference on Video and Image Processing. 2020: 122-127.
+
+```
