@@ -5,7 +5,7 @@ opencv-python==4.4.0
 imgaug==0.4.0
 tqdm==4.50.0
 sklearn==0.23.2
-numpy==1.19.2
+numpy==1.22.0
 matplotlib==3.3.2
 pydot==1.4.1
 
